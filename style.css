@@ -392,10 +392,12 @@ footer {
         text-align: center;
     }
 
-    header, footer {
+    footer {
         flex-direction: column;
-        gap: 10px;
+        gap: 20px;
         text-align: center;
+        display: flex;
+        align-items: center;
     }
 
     #detalhes-aluno-container {
@@ -403,6 +405,14 @@ footer {
         padding: 15px;
     }
     .ilustracao{
+        display: none;
+    }
+
+    .sair span {
+        display: none;
+    }
+
+    .btn-curso img {
         display: none;
     }
 }
