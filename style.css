@@ -415,4 +415,15 @@ footer {
     .btn-curso img {
         display: none;
     }
+
+    .copyright {
+        order: 3;
+    }
+
+    .contato-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
