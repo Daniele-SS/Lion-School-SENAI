@@ -94,6 +94,13 @@ header {
 .conteudo-inicio h2 {
     text-align: left;
     margin-bottom: 0;
+    color: black;
+    font-weight: 100;
+    width: 100;
+}
+
+.conteudo-inicio h2 span {
+    color: #3347B0;
 }
 
 .ilustracao {
@@ -123,8 +130,7 @@ header {
     justify-content: center;
     gap: 18px;
 
-    border: none;
-    border-radius: 15px;
+    border-radius: 0px;
     cursor: pointer;
 
     font-size: 32px;
