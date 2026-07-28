@@ -426,4 +426,10 @@ footer {
         justify-content: center;
         flex-direction: column;
     }
+
+    .btn-curso {
+        border-radius: 0px;
+        width: 150px;
+        height: 150px;
+    }
 }
